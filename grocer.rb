@@ -14,7 +14,13 @@ end
 
 def apply_coupons(cart, coupons)
   # code here
-  
+  coupons.each do |coupon_hash|
+    fruit_name = coupon_hash[:item]
+    new_coupon_hash = {
+      :price => coupon_hash[:cost],
+      :clearance => "true",
+      :count => coupon_hash[:num]
+    }
 end
 
 def apply_clearance(cart)
