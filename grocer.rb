@@ -1,5 +1,7 @@
 def consolidate_cart(cart)
   # code here
+  cart.do each |price, clearance, count|
+  
 end
 
 def apply_coupons(cart, coupons)
