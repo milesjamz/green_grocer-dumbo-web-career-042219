@@ -32,7 +32,6 @@ cart[fruit_name + " W/COUPON"] = new_coupon_hash
     end
   return cart
 end
-end
 
 def apply_clearance(cart)
   # code here
